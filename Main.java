@@ -1,4 +1,7 @@
-public class MyFirstProgram {
+package com.companu;
+import java.io.IOException;
+import java.until.scanner;
+public class Main{
 public static void main(String[] args) throws IOException {
 int x ;
 int y ;

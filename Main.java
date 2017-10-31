@@ -1,5 +1,4 @@
-public class Purpurtan{
-    public static void main(String[] args){
+public class Purpurtan {
 
 package com.company;
 
@@ -7,32 +6,32 @@ import java.io.IOException;
 
 import java.until.Scanner;
 
-    public class Main{
+            public class Main{
 
-        public static void main(String[] args) throws IOException {
+                public static void main(String[] args) throws IOException {
 
-            int x ;
+                    int x ;
 
-            int y ;
+                    int y ;
 
-            Scanner reader = new Scanner(System.in);
+                    Scanner reader = new Scanner(System.in);
 
-            System.out.println("Enter x: ");
+                    System.out.println("Enter x: ");
 
-            x = reader.nextInt();
+                    x = reader.nextInt();
 
-            System.out.println("Enter y: ");
+                    System.out.println("Enter y: ");
 
-            y = reader.nextInt();
+                    y = reader.nextInt();
 
-            System.out.println("Answer");
+                    System.out.println("Answer");
 
-            System.out.println(x + y);
+                    System.out.println(x + y);
 
-            reader.close();
+                    reader.close();
+
+                }
+
+            }
 
         }
-
-    }
-
-}
